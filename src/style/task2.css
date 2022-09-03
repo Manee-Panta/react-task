@@ -1,0 +1,65 @@
+.task2-main{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(128, 125, 125);
+  height: 100vh;
+}
+.parent{
+    align-items: center;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+    border: .3rem solid black;
+    padding: 3.0rem;
+
+}
+.add{
+    padding: 1.0rem;
+    margin-top: 1.0rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+  html{
+      font-size: 15%;
+  }
+  
+div.main{
+
+  width: fit-content;
+  height: fit-content;
+  font-size: 1rem;
+  overflow: hidden;
+}
+div.main h1{
+  
+  font-size: .1rem;
+  
+}
+div.main li{
+  font-size: small;
+  margin: 0;
+}
+div.body span{
+height: 2rem;
+width: 30rem;  
+font-size: smaller;
+padding: 0.5rem;
+margin-left: 0rem;
+}
+}
+@media (min-width:600px) {
+  html{
+      font-size: 5%;
+  }
+  div.main{
+    
+    width: fit-content;
+    height: fit-content;
+  }
+ 
+ 
+}

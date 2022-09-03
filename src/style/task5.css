@@ -1,0 +1,67 @@
+.task5-main{
+  height: 100vh;
+  
+}
+.task5-nav{
+    background-color: rgb(12, 12, 41);
+    height:7vh;
+}
+.task5-nav ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.task5-nav ol a{
+    margin: 1.5rem;
+    text-decoration: none;
+    color:white
+    
+}
+.login-main{
+justify-content: center;
+align-items: center;
+
+display: flex;
+background-color: rgb(214, 214, 214);
+height: 40.0rem;
+width: 40.0rem;
+margin-left: 60.0rem;
+margin-top: 5.0rem;
+border: none;
+border-radius: 5.0rem;
+
+}
+.login-body{
+    justify-content: center;
+align-items: center;
+    display: flex;
+flex-direction: column;
+}
+.login-body input{
+    height: 3.0rem;
+    width: 30.0rem;
+    border: .3rem solid black;
+    border-radius: 4.0rem;
+    
+}
+.login-body button {
+    margin-top: 2.0rem;
+    background-color:green;
+    color: aliceblue;
+    height: 3.0rem;
+    width: 10.0rem;
+    font-size: 1.5rem;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 165, 165);
+    height: 93vh;
+    font-size: 2.0rem;
+}
+html{
+    font-size: 62.5%;
+}

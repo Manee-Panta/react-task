@@ -1,0 +1,99 @@
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 8vh;
+    width: 100%;
+   
+} 
+ 
+.navbar-main a{
+    padding: 2.0rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2.0rem;
+    width: 100%;
+ 
+   
+}
+.navbar-main li{
+    margin-top: 0;
+
+  height: 8vh;
+  width: 100%;
+}
+.navbar-main ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.0rem;
+  
+}  
+
+html{
+    font-size: 62.5%;
+   /* height: 100vh;
+   width: 100vw;
+   background-color: cadetblue; */
+}
+
+
+
+@media (max-width:1000px) {
+    html{
+        font-size: 45%;
+    }
+    .navbar-main a{
+        padding: 2.0rem;
+        color: white;
+        text-decoration: none;
+        font-size: 0.5rem;
+        width: 100%;
+       
+    }
+    .navbar-main ul{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0.1rem;
+        width: 100%;
+
+    }  
+   
+.navbar li{
+    background-color: rgb(0, 0, 0);
+ overflow: hidden;
+    height: 5vh;
+    width: 100%;
+  
+}
+}
+@media (max-width:800px) {
+    html{
+        font-size: 10%;
+    }
+    .navbar-main a{
+        padding: 2.0rem;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.5rem;
+        width: 100%;
+       
+    }
+    .navbar-main ul{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0.1rem;
+        width: 100%;
+        overflow: hidden;
+
+    }  
+   
+.navbar li{
+    background-color: rgb(0, 0, 0);
+ overflow: hidden;
+    height: 5vh;
+    width: 100%;
+  
+}
+}

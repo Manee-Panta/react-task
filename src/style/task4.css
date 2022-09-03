@@ -1,0 +1,303 @@
+
+.portfolio-nav {
+  height: 7%;
+  background-color: rgb(12, 12, 41);
+  color: white;
+  display: flex;
+  width: 100%;
+
+}
+.logo {
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  padding: 1rem;
+  margin-left: 10%;
+}
+.portfolio-nav ol {
+  display: flex;
+  margin-left: 10%;
+  width: 100%;
+  background-color: rgb(12, 12, 41);
+  overflow: hidden;
+
+
+}
+.portfolio-nav a {
+  margin: 0 3rem 0 3rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none !important;
+  color:white;
+  
+}
+.portfolio-body {
+  height:85vh;
+ 
+  display: flex;
+}
+
+.home-p{
+  margin-top: 5rem;
+    margin-left: 3rem;
+    
+}
+.home-p button{
+ margin: 2rem;
+ height: 4rem;
+ width: 10rem;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ padding: 2px;
+ font-size: 1.5rem;
+}
+.cart{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+}
+img{
+    height: 90%;
+    width: 70%;
+    object-fit: cover;
+}
+.porfolio-card{ 
+  background-color: rgb(123, 123, 123);
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+font-size: 1.5rem;
+
+}
+.contact-card{
+  height: 40.0rem;
+  width: 40.0rem;
+  border: .3rem solid black;
+  border-radius: 4.0rem;
+  padding: 2rem;
+ 
+  background-color: rgb(214, 214, 214);
+  margin: 5rem;
+  margin-left: 55rem;
+
+}
+contact-form  , h1{
+  justify-content: center;
+  align-items: center;
+display: flex;
+}
+.contact-form input{
+ 
+  height: 3.0rem;
+  width: 30.0rem;
+  border: .3rem solid black;
+  border-radius: 4.0rem;
+  flex-direction: column;
+  margin: 3rem;
+  padding:0 0 0 2rem;
+}
+.contact-form button{
+margin-left: 15rem;
+height: 4rem;
+ width: 10rem;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ padding: 2px;
+ font-size: 1.5rem;
+}
+
+/* dropdown start  */
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #020202;
+
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-content li{
+  color: rgb(255, 255, 255);
+  background: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* dropdown end */
+html {
+  font-size: 62.5%;
+}
+
+
+/* show and hide nav */
+@media only screen and (max-width: 1000px) {
+  /* For tablets: */
+  
+ .line{
+  display: none;
+ }
+ .logo{
+  display: none;
+ }
+ span{
+  font-size: 2rem;
+  padding: 3rem;
+color: white;
+margin: 4rem;
+ }
+ 
+}
+@media only screen and (min-width: 1000px) {
+
+ .dropdown{
+  display: none;
+}
+
+}
+
+@media  (max-width:500px) {
+  
+ 
+.portfolio-nav{
+ height: 2rem;
+}
+span{
+  font-size: 20rem;
+  padding: 3rem;
+color: white;
+margin: 4rem;
+visibility: visible;
+ }
+ .dropdown{
+  display: block;
+  visibility: visible;
+ }
+}
+/* show and hide nav */
+.dot{
+  margin-left: -50rem;
+  height: 10rem;
+  width: 2.0rem;
+}
+ 
+
+@media (max-width:900px) {
+ 
+.dot{
+  margin-left: -50rem;
+  height: 10rem;
+  width: 2.0rem;
+}
+ 
+}
+@media (max-width:500px) {
+  .dropdown{
+    display: none;
+    
+  }
+.dot{
+  /* margin-left: -50rem;
+  height: 5rem;
+  width: 2.0rem; */
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+ 
+}
+.skill-main{
+  background-color: brown;
+  height:50rem; width:50rem; 
+  margin-left: -50rem;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+canvas{
+  /* background-color: rgb(162, 162, 217); */
+  
+/* display: block; */
+ box-sizing: border-box; 
+ height: .4rem; 
+ width: .4rem;
+
+
+} 
+}
+
+@media (max-width:1000px) {
+  html{
+      font-size: 10%;
+  }
+
+  .portfolio-body {
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+.contact-card{
+  margin: 0;
+  
+    height: 30.0rem;
+    width: 30.0rem;
+    border: .3rem solid black;
+    border-radius: 4.0rem;
+    padding: 2rem;
+   
+    background-color: rgb(214, 214, 214);
+    margin: 5rem;
+    text-align: center;
+justify-content: center;
+display: flex;
+
+}
+.contact-form{
+
+text-align: center;
+justify-content: center;
+
+}
+.contact-form input{
+ 
+  height: 3.0rem;
+  width: 20.0rem;
+  border: .3rem solid black;
+  border-radius: 4.0rem;
+  flex-direction: column;
+  margin: 2rem;
+  padding:0 0 0 2rem;
+}
+.contact-form button{
+  margin-left: 1rem;
+  height: 4rem;
+   width: 10rem;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   padding: 2px;
+   font-size: 1.5rem;
+  }
+}

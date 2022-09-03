@@ -1,0 +1,17 @@
+
+.task9-main{
+height: 100vh;
+background-color: rgb(226, 222, 222);
+padding: 5.0rem;
+}
+
+.task9-h1{
+    margin-top: 0;
+}
+.task6-p li{
+    font-size: 2.0rem; 
+    font-weight:normal;
+}
+html{
+    font-size: 62.5%;
+}

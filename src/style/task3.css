@@ -1,0 +1,77 @@
+.task3-main0{
+    height: 100vh;
+    border: .3rem solid black;
+    background-color: rgb(169, 165, 165);
+    padding: 2.0rem;
+}
+.task3-main1{
+    height: 100vh;
+    border: .3rem solid black;
+    background-color: rgb(169, 165, 165);
+    padding: 2.0rem;
+}
+.task3-body{
+background-color: rgb(154, 144, 144);
+height: 100%;
+
+}
+
+.row{
+justify-content: center;
+display: flex;
+width: 100%;
+}
+
+.box1{
+    height: 30.0rem;
+    width: 30.0rem;
+    margin: 3.0rem 5.0rem 0 20rem;
+    border: .3rem solid black;
+}
+.box2{
+    height: 40.0rem;
+    width: 30.0rem;
+    border: .3rem solid black;
+    margin: 3.0rem 5.0rem 0 2.0rem;
+}
+.box3{
+    height: 30.0rem;
+    width: 30.0rem;
+    border: .3rem solid black;
+    margin: 3.0rem 5.0rem 0 2.0rem;
+}
+.box4{
+   height: 15.0rem;
+    width: 20.0rem;
+    border: .3rem solid black;
+    margin: 3.0rem 5.0rem 0 2.0rem;
+}
+.box5{
+    height: 10.0rem;
+    width: 20.0rem;
+    border: .3rem solid black;
+    margin: 3.0rem 5.0rem 0 2.0rem;
+
+}
+.box6{
+    height: 15.0rem;
+    width: 20.0rem;
+    border: .3rem solid black;
+    margin: 3.0rem 5.0rem 0 2.0rem;
+}
+html {
+    font-size: 62.5%;
+  }
+@media only screen and (max-width: 1000px) {
+    /* For tablets: */
+    .task3-main0{
+        display: none;
+    }
+   
+  }
+@media only screen and (min-width: 1000px) {
+    /* For tablets: */
+   .task3-main1{
+    display: none;
+   }
+  }
